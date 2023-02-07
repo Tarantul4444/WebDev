@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+}
+.font-style {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.input_width {
+    width: 365px;
+}
+.sign__input {
+    margin: 6px 0;
+    padding: 14px 16px;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: lightgray;
+    font-size: 17px;
+}
+.sign__button_display {
+    height: 48px;
+    margin: 6px 0 0;
+    padding: 0 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+}
+li:hover {
+    text-decoration: underline;
+}
+input::placeholder {
+    color: rgb(188, 188, 188);
+}
