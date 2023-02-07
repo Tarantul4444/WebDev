@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+}
+.font-style {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.input_text {
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 9px 0 7px 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    color: lightgray;
+    background-color: #EFEFEF;
+}
+.line {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+}
+.download__sources__image {
+    height: 40px;
+}
