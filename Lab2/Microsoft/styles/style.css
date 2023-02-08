@@ -1,0 +1,80 @@
+.header {
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 64px;
+    padding: 14px 8px;
+}
+.header__microsoft {
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+}
+.header__microsoft__img {
+    width: 108px;
+}
+.header__microsoft>li, .header__account>li {
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.header__account {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    font-size: 13px;
+}
+.header__account__img1 {
+    height: 18px;
+}
+.header__account__img2 {
+    height: 32px;
+}
+.main__img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 540px;
+}
+.main__description {
+    display: flex;
+    flex-direction: column;
+    padding: 160px 780px 0 120px;
+}
+.main__description__title {
+    margin-bottom: 16px;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: white;
+}
+.main__description__text {
+    margin-bottom: 24px;
+    line-height: 1.5;
+    color: white;
+}
+.main__description__button {
+    height: 40px;
+    width: fit-content;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #0067B8;
+}
+.addition {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 260px;
+    padding: 0 64px;
+}
+.header__microsoft>li:first-child, .header__account>li:last-child {
+    margin-top: 0;
+}
+.header__microsoft>li:hover, .header__account>li:hover:first-child {
+    border-bottom: 3px solid black;
+}
+.header__microsoft>li:hover:first-child {
+    border: none;
+}
