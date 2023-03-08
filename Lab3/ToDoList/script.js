@@ -38,7 +38,3 @@ function addElement() {
     div.appendChild(span2)
     list.appendChild(div)
 }
-
-function render() {
-
-}

@@ -105,3 +105,8 @@
 .description__link:hover {
     text-decoration-line: underline;
 }
+.zzz {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
